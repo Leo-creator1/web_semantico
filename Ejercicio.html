@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio Web Semantico</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi sitio Web</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca De</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </header>
+    <section class="intro" id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, aperiam? Vero libero, odit explicabo accusantium culpa numquam atque dolores delectus animi aut consequatur iusto dolore, nam maiores quibusdam expedita sit?</p>
+        <img src="https://www.deutschland.de/sites/default/files/media/image/tdt_02102023_wald_wald_der_zukunft_mischwald.jpg" alt="imagen de bienvenida" style="width: 800px; height: 300px">
+    </section>
+    <main>
+        <section id="acerca">
+            <h2>Mis articulos recientes</h2>
+
+            <article>
+                <h3>Titulo del articulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, alias delectus? Corporis eius, quo praesentium odio sed libero consequuntur explicabo, ipsa ipsum voluptatibus voluptatum repellendus placeat sapiente necessitatibus veritatis sint!</p>
+                <a href="#">Leer Mas</a>
+            </article>
+
+            <article>
+                <h3>Titulo del articulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, alias delectus? Corporis eius, quo praesentium odio sed libero consequuntur explicabo, ipsa ipsum voluptatibus voluptatum repellendus placeat sapiente necessitatibus veritatis sint!</p>
+                <a href="#">Leer Mas</a>
+            </article>
+
+        </section>
+
+        <!-- Formulario de contacto -->
+    <section class="contact" id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="/enviar_datos" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <!-- Pie de página -->
+<footer>
+
+    <div>
+    <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </div>
+
+    <div>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+    </div>
+
+</footer>
+
+</body>
+</html>
